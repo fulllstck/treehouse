@@ -67,14 +67,8 @@ print('5th Loop:');
 text = '';
 
 // Write 5th loop here:
-for ( let i = 0; i <= 9; i += 1 ) {
-  let random = Math.floor(Math.random() * 10); 
-  if ( random === 8 ) {
-    text += random + ' ';
-    break;
-  } else {
-    text += random + ' ';
-  }
+for ( let i = 50; i >= 5; i -= 5 ) {
+  text += i + ' ';
 }
 
 print(text); // Should print `50 45 40 35 30 25 20 15 10 5 `.
